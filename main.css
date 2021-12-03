@@ -1,0 +1,47 @@
+.container {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.boxBiblia {
+  border: 1px solid black;
+  background-color: #483D8B;
+  color: white;
+  width: 225px; 
+  height: 75px;
+  margin: 5px;
+  border-radius: 8px;
+  flex-direction: row;
+}
+
+.row1 {
+  text-align: center;
+  width:100%;
+  color: white;
+}
+
+.row2 {
+  height: 5px;
+  width:100%;
+}
+
+.row3 {
+  color:#778899; 
+  font-style: italic;
+  text-align: center;
+  width:100%;
+}
+
+.boxBiblia:hover {
+  background-color: #7B68EE;
+}
+
+.boxBiblia:hover .row1 {
+  color: orange;
+}
+
+.boxBiblia:hover .row3 {
+  color:white; 
+}
