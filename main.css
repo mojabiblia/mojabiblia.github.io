@@ -69,7 +69,7 @@ label:hover {
 label::before {
   font-family: Consolas, monaco, monospace;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 12px;
   content: "↓";
   vertical-align: text-top;
   display: inline-block;
@@ -91,7 +91,7 @@ section {
 }
 
 #toggle:checked~#expand {
-  height: 1250px;
+  overflow: auto;
 }
 
 #toggle:checked~label::before {
