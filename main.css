@@ -70,7 +70,7 @@ label::before {
   font-family: Consolas, monaco, monospace;
   font-weight: bold;
   font-size: 15px;
-  content: "+";
+  content: "↓";
   vertical-align: text-top;
   display: inline-block;
   width: 20px;
@@ -83,7 +83,7 @@ label::before {
   height: 0px;
   overflow: hidden;
   transition: height 0.5s;
-  color: #FFF;
+  color: #000;
 }
 
 section {
@@ -95,5 +95,5 @@ section {
 }
 
 #toggle:checked~label::before {
-  content: "-";
+  content: "↑";
 }
