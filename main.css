@@ -91,7 +91,7 @@ section {
 }
 
 #toggle:checked~#expand {
-  overflow: auto;
+  height: 2250px;
 }
 
 #toggle:checked~label::before {
