@@ -80,7 +80,7 @@ label::before {
 }
 
 #expand {
-  height: 0px;
+/*   height: 0px; */
   overflow: hidden;
   transition: height 0.5s;
   color: #000;
@@ -91,7 +91,7 @@ section {
 }
 
 #toggle:checked~#expand {
-  height: 2250px;
+  overflow: visible;
 }
 
 #toggle:checked~label::before {
