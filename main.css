@@ -70,12 +70,12 @@ label::before {
   font-weight: bold;
   font-size: 12px;
   content: "↓";
-  vertical-align:center;
-  text-align: center;
+  vertical-align:text-top;
   display: inline-block;
   width: 20px;
   height: 20px;
   margin-right: 3px;
+  padding: 4px 4px 0px 4px;
   background: radial-gradient(ellipse at center, #CCC 50%, transparent 50%);
 }
 
